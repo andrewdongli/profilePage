@@ -1,0 +1,293 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/* css for nav bar */
+.nav{
+    display:flex;
+    flex-direction: row;
+    background-color:black;
+
+}
+
+.empty{
+    flex:1;
+}
+.nav-title{
+    flex:3;
+    color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    margin:20px;
+}
+.nav-links{
+    list-style: none;
+    min-width:400px;
+    display:flex;
+    flex-direction: row;
+    flex:3;
+
+    align-items: center;
+    justify-content:flex-end;
+}
+
+li{
+    margin:5px;
+}
+.nav-links > li > a{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+.active{
+    font-weight: bold;
+}
+
+.btn{
+    background-color: #17a2b8;
+    color:white;
+    border-color:black;
+    margin:5px;
+    padding:5px;
+    box-shadow:3px 3px black ;
+    font-size:15px;
+}
+
+
+/* CSS for formatting */
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+}
+.empty{
+    flex:1;
+}
+.left {
+    flex:4;
+}
+.right{
+    flex:2;
+}
+
+
+/* CSS for user card */
+.user-card{
+    display: flex;;
+    flex-direction: column;
+    border: 3px solid gray;
+    margin:20px;
+}
+
+.usr-card-bckgrd{
+    background-color: #17a2b8;
+    height: 100px;
+}
+.content{
+    padding:40px 20px;
+}
+
+.content > a {
+    color: #17a2b8;
+}
+.content > p{
+    font-family: 'Roboto', sans-serif;
+    margin:5px;
+}
+p.name{
+    font-size: 30px;
+    font-weight:600;
+}
+
+
+img[src="/icons/map-marker.png"],
+img[src="icons/gear.png"]{
+    height:15px;
+}
+img[src="/images/jane-m.jpg"]{
+    margin:60px 20px;
+    border-radius: 50%;
+}
+
+
+/* CSS for education */
+.education{
+    border: 3px solid gray;
+    margin:20px;
+}
+
+.ed-header{
+    background-color: #333333;
+    height:50px;
+}
+
+.ed-header > p{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    padding:15px 20px;
+    /* vertical-align:middle;
+    line-height: 50px;  */
+}
+
+.education > h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.education > h5 {
+    margin: 0px 30px;
+    color:#808080;
+}
+.education > h4 {
+    margin-left: 25px;
+    color:#333333;
+}
+
+/* CSS for connection requests */
+.connection-req{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid gray;
+    margin:20px;
+}
+.connection-req-header{
+    background-color: #333333;
+    height:50px;
+    display:flex;
+}
+.connection-req-header > .circle{
+    background-color: lightgray;
+    border-radius:50%;
+    min-width:30px;
+    max-width:30px;
+    margin:10px 20px 10px 20px;
+}
+.connection-req-header > .circle > p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.connection-req-header > .text {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    width:100%;
+    margin-left:0px;
+    padding:15px 5px;
+}
+
+
+.person1, .person2{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    margin:10px 0px;
+}
+
+
+/* CSS for your connections */
+.your-connections{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid gray;
+    margin:20px;
+}
+
+.your-connections-header{
+    background-color: #333333;
+    height:50px;
+    display:flex;
+}
+.your-connections-header > .oval{
+    background-color: lightgray;
+    border-radius:50%;
+    min-width:50px;
+    max-width:50px;
+    margin:10px 5px 10px 10px;
+}
+.your-connections-header > .oval > p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+.your-connections-header > .text {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    min-width:160px;
+    width:100%;
+    margin-left:0px;
+    padding:15px 5px;
+    /* align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center; */
+}
+
+.person3, .person4, .person5, .person6{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    /* justify-content: space-around; */
+    margin:10px 0px;
+}
+
+
+.connection-req .name,
+.your-connections .name{
+    font-family: 'Roboto', sans-serif;
+}    
+
+
+
+
+
+/* CSS for resizing images  */
+.person3 > .image, .person4 > .image,
+.person5 > .image, .person6 > .image{
+    margin: 5px 15px;
+}
+
+.person3 > .name, .person4 > .name,
+.person5 > .name, .person6 > .name{
+    margin: 5px 15px;
+}
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img[src="/images/todd-s.jpg"], 
+img[src="/images/phil-s.jpg"],
+img[src="/images/adrien-s.jpg"],
+img[src="/images/anne-s.jpg"],
+img[src="/images/alayne-s.jpg"],
+img[src="/images/arry-s.jpg"]{
+border-radius: 50%;
+width: 50px;
+height: 50px;
+}
+img[src="icons/accept-circle.png"], 
+img[src="icons/close-circle.png"]{
+    width:30px;
+}
