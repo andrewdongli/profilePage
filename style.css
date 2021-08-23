@@ -234,13 +234,8 @@ img[src="/images/jane-m.jpg"]{
     font-family: 'Roboto', sans-serif;
 }    
 
-.person3 > .image, .person4 > .image,
-.person5 > .image, .person6 > .image{
-    margin: 5px 15px;
-}
-
-.person3 > .name, .person4 > .name,
-.person5 > .name, .person6 > .name{
+.person3 > div, .person4 > div,
+.person5 > div, .person6 > div{
     margin: 5px 15px;
 }
 
@@ -248,14 +243,7 @@ img[src="/images/jane-m.jpg"]{
 
 
 /* CSS for resizing images  */
-    
-
-img[src="/images/todd-s.jpg"], 
-img[src="/images/phil-s.jpg"],
-img[src="/images/adrien-s.jpg"],
-img[src="/images/anne-s.jpg"],
-img[src="/images/alayne-s.jpg"],
-img[src="/images/arry-s.jpg"]{
+.image{
 border-radius: 50%;
 width: 50px;
 height: 50px;
