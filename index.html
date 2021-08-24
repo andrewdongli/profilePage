@@ -27,11 +27,11 @@
                         <img src="/images/jane-m.jpg" alt="photo of user" width="80px">
                     </div>
                     <div class="content">
-                        <p class="name">Jane Doe</p>
+                        <p class="user-name">Jane Doe</p>
                         <p><img src="/icons/map-marker.png" alt="map marker"> Seattle</p>
                         <p>Developer | Engineer | Problem Solver</p>
                         <p>Master of shadows and the Internet!</p>
-                        <a href=""><img src="icons/gear.png" alt="photo of gear">   edit profile</a>
+                        <a onclick="changeName()" ><img src="icons/gear.png" alt="photo of gear">   edit profile</a>
                     </div>
                 </div>
                 <div class="education">
@@ -46,7 +46,7 @@
             <div class="right">
                 <div class="connection-req">
                     <div class="connection-req-header">
-                        <div class="circle"><p>2</p></div>
+                        <div class="circle">2</div>
                         <div class="text">Connection Requests</div>
                     </div>
 
@@ -54,8 +54,8 @@
                         <div><img src="/images/todd-s.jpg" alt="image of todd"  class="image"></div>
                         <div class="name">Todd E</div>
                         <div class="yes-or-no">
-                            <img src="icons/accept-circle.png" alt="image of accept circle">
-                            <img src="icons/close-circle.png" alt="image of decline cirle">
+                            <img onclick="acceptReq1()" src="icons/accept-circle.png" alt="image of accept circle">
+                            <img onclick="declineReq1()" src="icons/close-circle.png" alt="image of decline cirle">
                         </div>
                     </div>
 
@@ -63,8 +63,8 @@
                         <div><img src="/images/phil-s.jpg" alt="image of phil" class="image" ></div>
                         <div class="name">Phil K</div>
                         <div class="yes-or-no">
-                            <img src="icons/accept-circle.png" alt="image of accept circle">
-                            <img src="icons/close-circle.png" alt="image of decline cirle">
+                            <img onclick="acceptReq2()" src="icons/accept-circle.png" alt="image of accept circle">
+                            <img onclick="declineReq2()" src="icons/close-circle.png" alt="image of decline cirle">
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
 
                 <div class="your-connections">
                     <div class="your-connections-header">
-                        <div class="oval"><p>500+</p></div>
+                        <div class="oval">500+</div>
                         <div class="text">Your Connections</div>
                     </div>
 
@@ -98,5 +98,6 @@
 
 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
